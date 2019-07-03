@@ -1,5 +1,5 @@
 var chownr = require('chownr')
-var tar = require('tar-stream')
+var tar = require('tar-stream-fixed')
 var pump = require('pump')
 var mkdirp = require('mkdirp')
 var fs = require('fs')
